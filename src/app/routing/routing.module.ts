@@ -6,7 +6,7 @@ import {RecipeListComponent} from '../Main/recipe-list/recipe-list.component';
 
 const routes: Routes = [
   {path: '', component : RecipeListComponent}
-]
+];
 @NgModule({
   declarations: [],
   imports: [

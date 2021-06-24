@@ -1,1 +1,4 @@
-<p>recipe-list works!</p>
+<mat-grid-list class="grid"cols="3" rowHeight="4:3" gutterSize="30px" >
+    <mat-grid-tile *ngFor="let recipe of recipes;index as i" ><app-recipe [recipe]="recipes[i]"></app-recipe></mat-grid-tile>
+   
+</mat-grid-list>
